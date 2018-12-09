@@ -1,5 +1,5 @@
 
-var theData = {image:"images/coolerpics/amazone.jpg", name: "Amazone"};
+var theData = {image:"images/amazone.jpg", name: "Amazone"};
 
 // Retrieve the HTML from the script tag we setup in step 1
 // We use the id (header) of the script tag to target it on the page

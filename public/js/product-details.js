@@ -8,26 +8,30 @@ var  model = {
 
     "domain": "http://trimurticoolers.com",
 
+    "hero":"images/hero_breeze.jpg",
+
+    "logo":"images/logo.jpeg",
+
     "categories":[
         {
             "name":"Amazon",
-            "image":"images/coolerpics/amazone.jpg"
+            "image":"images/amazone.jpg"
         },
         {
             "name":"Aura",
-            "image":"images/coolerpics/aura.jpg"
+            "image":"images/aura.jpg"
         },
         {
             "name": "Halo",
-            "image":"images/coolerpics/halo%2090-1.jpg"
+            "image":"images/halo%2090-1.jpg"
         },
         {
             "name": "Thunder",
-            "image":"images/coolerpics/thunder.jpg"
+            "image":"images/thunder.jpg"
         },
         {
             "name": "Cyclone",
-            "image":"images/coolerpics/cyclone.jpg"
+            "image":"images/cyclone.jpg"
         }
 
     ],
@@ -49,31 +53,42 @@ var  model = {
 
     "taglines":[
         {
+            "icon":"icon-high_quality",
             "title": "High Quality",
-            "copy": "Some text regarding high quality"
+            "copy": "Quality is what matters to us and that's why we provide best quality products"
         },
         {
+            "icon": "icon-rupee",
             "title": "Fair Pricing",
             "copy": "Some text regarding fair pricing"
         },
         {
+            "icon": "icon-help",
             "title": "Customer Support",
             "copy": "Some text regarding Customer support"
         }
 
     ],
 
-    "Navigation":[
+    "sections":[
         {
-            "name": "HOME",
+            "image":"images/halo%2090-1.jpg",
+            "title": "We Care",
+            "copy": "We are focused on delivering sustainable and energy efficient solutions. In order to sustain our growth. We are constantly working towards improving our sustainability by implementing green free measures for safety performance, product responsibility initiatives, approach and initiatives for CSR & innovation in raw materials use."
+        }
+    ],
+
+    "navigations":[
+        {
+            "name": "Home",
             "link": "/index.html"
         },
         {
-            "name": "CATALOGUE",
+            "name": "Catalogue",
             "link": "/catalogue.html"
         },
         {
-            "name": "CONTACT",
+            "name": "Contact",
             "link": "/contact.html"
         }
     ],
@@ -89,9 +104,9 @@ var  model = {
             "id": 1,
             "name": "Amazone",
             "images": [
-                "images/coolerpics/amazone.jpg",
-                "images/coolerpics/amazone-1.jpg",
-                "images/coolerpics/amazone-2.jpg"
+                "images/amazone.jpg",
+                "images/amazone-1.jpg",
+                "images/amazone-2.jpg"
             ],
             "highlights": [
                 {
@@ -145,21 +160,21 @@ var  model = {
             "id": 2,
             "name": "Aura",
             "images": [
-                "images/coolerpics/aura.jpg",
-                "images/coolerpics/aura-1.jpg",
-                "images/coolerpics/aura-2.jpg",
-                "images/coolerpics/aura-3.jpg",
-                "images/coolerpics/aura-4.jpg",
-                "images/coolerpics/aura-5.jpg"
+                "images/aura.jpg",
+                "images/aura-1.jpg",
+                "images/aura-2.jpg",
+                "images/aura-3.jpg",
+                "images/aura-4.jpg",
+                "images/aura-5.jpg"
             ]
         },
         {
             "id": 3,
             "name": "Halo 90",
             "images": [
-                "images/coolerpics/halo%2090-1.jpg",
-                "images/coolerpics/halo%2090-2.jpg",
-                "images/coolerpics/halo%20903.jpg"
+                "images/halo%2090-1.jpg",
+                "images/halo%2090-2.jpg",
+                "images/halo%20903.jpg"
             ],
             "specifications": [{
                 "name": "Dimensions (LxBxH)(mm)",
@@ -217,9 +232,9 @@ var  model = {
             "id": 4,
             "name": "Halo 60",
             "images": [
-                "images/coolerpics/halo%2060.jpg",
-                "images/coolerpics/halo%2060-1.jpg",
-                "images/coolerpics/halo%2060-2.jpg"
+                "images/halo%2060.jpg",
+                "images/halo%2060-1.jpg",
+                "images/halo%2060-2.jpg"
             ],
 
 
@@ -278,9 +293,9 @@ var  model = {
             "id": 5,
             "name": "Thunder",
             "images": [
-                "images/coolerpics/thunder.jpg",
-                "images/coolerpics/thunder-1.jpg",
-                "images/coolerpics/thunder-2.jpg"
+                "images/thunder.jpg",
+                "images/thunder-1.jpg",
+                "images/thunder-2.jpg"
             ],
             "specifications": [{"name": "Cooling Area Sq.ft", "value": "300"}, {
                 "name": "Vent Size",
@@ -323,9 +338,9 @@ var  model = {
             "id": 6,
             "name": "Cyclone",
             "images": [
-                "images/coolerpics/cyclone.jpg",
-                "images/coolerpics/cyclone-1.jpg",
-                "images/coolerpics/cyclone-2.jpg"
+                "images/cyclone.jpg",
+                "images/cyclone-1.jpg",
+                "images/cyclone-2.jpg"
             ],
             "specifications": [{"name": "CYCLONE-A", "value": "Cooling Area Sq.ft"}, {
                 "name": "200",
