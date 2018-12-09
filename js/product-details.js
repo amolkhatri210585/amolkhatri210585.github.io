@@ -60,12 +60,12 @@ var  model = {
         {
             "icon": "icon-rupee",
             "title": "Fair Pricing",
-            "copy": "Some text regarding fair pricing"
+            "copy": "We provide fair pricing for best quality products."
         },
         {
             "icon": "icon-help",
             "title": "Customer Support",
-            "copy": "Some text regarding Customer support"
+            "copy": "Get immediate customer support"
         }
 
     ],
