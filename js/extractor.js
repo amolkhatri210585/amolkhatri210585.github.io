@@ -15,6 +15,41 @@ function getSpecifications() {
     return result;
 }
 
+function getSpecifications2() {
+    var all = $("tr td");
+    var result = [];
+    for(var i = 0; i < all.length; i++){
+        var name = ($(all[i]).find("span").html() || "").trim();
+        if(name === "Inline Water Supply (Float Valve)"){
+            continue;
+        }
+        var values = [];
+        var value1 = ($(all[++i]).find("span").html() || "").trim();
+        var value2 = ($(all[++i]).find("span").html() || "").trim();
+        values.push(value1);
+        values.push(value2)
+        result.push({ name:name, values:values})
+    }
+    return result;
+}
+
+function getSpecifications3() {
+    var all = $("tr td p");
+    var result = [];
+    for(var i = 3; i < all.length; i++){
+        var name = ($(all[i]).html() || "").trim();
+        if(name === "Inline Water Supply (Float Valve)"){
+            continue;
+        }
+        var values = [];
+        var value1 = ($(all[++i]).html() || "").trim();
+        var value2 = ($(all[++i]).html() || "").trim();
+        values.push(value1);
+        values.push(value2);
+        result.push({ name:name, values:values})
+    }
+    return result;
+}
 
 
 function getHighlights(){

@@ -1,60 +1,59 @@
-var model = {
+
+
+
+
+var  model = {
 
     "site": "Trimurti Coolers",
 
     "domain": "http://trimurticoolers.com",
 
-    "hero": "images/hero_breeze.jpg",
+    "hero":"images/hero_breeze.jpg",
 
-    "logo": "images/logo.jpeg",
+    "logo":"images/logo.jpeg",
 
-    "categories": [
+    "categories":[
         {
-            "name": "Amazon",
-            "image": "images/amazone.jpg",
-            "id": 1
+            "name":"Amazon",
+            "image":"images/amazone.jpg"
         },
         {
-            "name": "Aura",
-            "image": "images/aura.jpg",
-            "id": 2
+            "name":"Aura",
+            "image":"images/aura.jpg"
         },
         {
             "name": "Halo",
-            "image": "images/halo%2090-1.jpg",
-            "id": 3
+            "image":"images/halo%2090-1.jpg"
         },
         {
             "name": "Thunder",
-            "image": "images/thunder.jpg",
-            "id": 5
+            "image":"images/thunder.jpg"
         },
         {
             "name": "Cyclone",
-            "image": "images/cyclone.jpg",
-            "id": 6
+            "image":"images/cyclone.jpg"
         }
 
     ],
 
-    "pages": [
+    "pages":[
         {
             "name": "HOME",
-            "link": "./index.html"
+            "link": "/index.html"
         },
         {
             "name": "CATALOGUE",
-            "link": "./catalogue.html"
+            "link": "/catalogue.html"
         },
         {
             "name": "CONTACT",
-            "link": "./contact.html"
+            "link": "/contact.html"
         }
     ],
 
-    "taglines": [
+    "taglines":[
         {
-            "icon": "icon-high_quality",
+            "icon":"icon-high_quality",
             "title": "High Quality",
             "copy": "Quality is what matters to us and that's why we provide best quality products"
         },
@@ -71,15 +70,15 @@ var model = {
 
     ],
 
-    "sections": [
+    "sections":[
         {
-            "image": "images/halo%2090-1.jpg",
+            "image":"images/halo%2090-1.jpg",
             "title": "We Care",
             "copy": "We are focused on delivering sustainable and energy efficient solutions. In order to sustain our growth. We are constantly working towards improving our sustainability by implementing green free measures for safety performance, product responsibility initiatives, approach and initiatives for CSR & innovation in raw materials use."
         }
     ],
 
-    "navigations": [
+    "navigations":[
         {
             "name": "Home",
             "link": "/index.html"
@@ -93,15 +92,14 @@ var model = {
             "link": "/contact.html"
         }
     ],
-    "contacts": [
-        {
-            "city": "Surat",
-            "address": "Plot no.5, Sonal Industrial Estate, GHB Road,NEAR COMET MOTOR, UDHANA SURAT PIN - 394210",
-            "phone": "9033148501",
+    "contacts":[
+         {
+            "address":"Plot no.5, Sonal Industrial Estate, GHB Road,NEAR COMET MOTOR, UDHANA SURAT PIN - 394210",
+            "phone":"9033148501",
             "email": "sanjaybichave1@gmail.com"
-        }
+         }
     ],
-    "products": [
+    "products" : [
         {
             "id": 1,
             "name": "Amazone",
@@ -168,46 +166,7 @@ var model = {
                 "images/aura-3.jpg",
                 "images/aura-4.jpg",
                 "images/aura-5.jpg"
-            ],
-            "specHeader": ["Parameters", "AURA-A", "AURA-C"],
-            "specifications": [{
-                "name": "Cooling Area Sq.ft",
-                "values": ["150", "150"]
-            }, {"name": "Vent Size", "values": ["", ""]}, {
-                "name": "Fan Type",
-                "values": ["Blower", "Blower"]
-            }, {
-                "name": "Output Watts(H/M/L)",
-                "values": ["245/215/190", "245/215/190"]
-            }, {"name": "Power Resource(V/Hz)", "values": ["230/50", "230/50"]}, {
-                "name": "Fan Speed",
-                "values": ["1-ph,3 speed", "1-ph,3 speed"]
-            }, {"name": "Inverter Compatibility", "values": ["Yes", "Yes"]}, {
-                "name": "Temperature Drop (Degree)",
-                "values": ["6 to 8", "8 to 10"]
-            }, {"name": "Tank Capacity (Ltrs)", "values": ["50", "50"]}, {
-                "name": "Float Valve",
-                "values": ["Yes", "Yes"]
-            }, {"name": "Controller", "values": ["Manual", "Manual"]}, {
-                "name": "Empty Tank Alarm",
-                "values": ["No", "No"]
-            }, {"name": "Auto Louver Movement", "values": ["Yes", "Yes"]}, {
-                "name": "Water Level Indicator",
-                "values": ["Yes", "Yes"]
-            }, {"name": "Cooling Media", "values": ["Aspen", "Honeycomb"]}, {
-                "name": "Easy Mobility",
-                "values": ["Yes /Trolly Optional", "Yes /Trolly Optional"]
-            }, {"name": "Weight in KG", "values": ["12.4/16.00", "12.4/16.00"]}],
-            "highlights": [{
-                "title": "Low Power Consumption",
-                "subTitle": "Aura Consumes Electricity very Efficiently. Making It Extremely Power Efficient For Your Home."
-            }, {
-                "title": "Trolley Accessibility",
-                "subTitle": "Aura is available with a convenient built-in trolley and is our most versatile cooler."
-            }, {
-                "title": "Warranty",
-                "subTitle": "All Of Our Products Is Available With A 1 Year Manufacturer's Warranty."
-            }]
+            ]
         },
         {
             "id": 3,
@@ -316,7 +275,7 @@ var model = {
                 "name": "Trolley",
                 "value": "Weight Nett / Gross (kg)"
             }, {"name": "16.3/20.8", "value": ""}],
-            "highlights": [{
+            "hightlights": [{
                 "title": "Silent Cooling",
                 "subTitle": "Halo 60 has a silent cooling feature which cools the entire room while remaining practically silent"
             }, {
@@ -383,32 +342,43 @@ var model = {
                 "images/cyclone-1.jpg",
                 "images/cyclone-2.jpg"
             ],
-            "specHeader": ["Parameters", "Cyclone-C", "Cyclone-A"],
-            "specifications": [{"name": "Cooling Area Sq.ft", "values": ["200", "200"]}, {
-                "name": "Vent Size",
-                "values": ["400 x 400", "400 x 400"]
-            }, {"name": "Fan Type", "values": ["Axial", "Axial"]}, {
+            "specifications": [{"name": "CYCLONE-A", "value": "Cooling Area Sq.ft"}, {
+                "name": "200",
+                "value": "200"
+            }, {"name": "Vent Size", "value": "400 x 400"}, {
+                "name": "400 x 400",
+                "value": "Fan Type"
+            }, {"name": "Axial", "value": "Axial"}, {
                 "name": "Output Watts(H/M/L)",
-                "values": ["205/185/175", "205/185/175"]
-            }, {"name": "Power Resource(V/Hz)", "values": ["230/50", "230/50"]}, {
-                "name": "Fan Speed",
-                "values": ["1-ph,3 speed", "1-ph,3 speed"]
-            }, {"name": "Inverter Compatibility", "values": ["Yes", "Yes"]}, {
+                "value": "205/185/175"
+            }, {"name": "205/185/175", "value": "Power Resource(V/Hz)"}, {
+                "name": "230/50",
+                "value": "230/50"
+            }, {"name": "Fan Speed", "value": "1-ph,3 speed"}, {
+                "name": "1-ph,3 speed",
+                "value": "Inverter Compatibility"
+            }, {"name": "Yes", "value": "Yes"}, {
                 "name": "Temperature Drop (Degree)",
-                "values": ["8 to 10", "6 to 8"]
-            }, {"name": "Tank Capacity (Ltrs)", "values": ["50", "50"]}, {
-                "name": "Float Valve",
-                "values": ["Yes", "Yes"]
-            }, {"name": "Controller", "values": ["Manual", "Manual"]}, {
-                "name": "Empty Tank Alarm",
-                "values": ["No", "No"]
-            }, {"name": "Auto Louver Movement", "values": ["Yes", "Yes"]}, {
-                "name": "Water Level Indicator",
-                "values": ["Yes", "Yes"]
-            }, {"name": "Cooling Media", "values": ["Honeycomb", "Aspen"]}, {
+                "value": "8 to 10"
+            }, {"name": "6 to 8", "value": "Tank Capacity (Ltrs)"}, {
+                "name": "50",
+                "value": "50"
+            }, {"name": "Float Valve", "value": "Yes"}, {"name": "Yes", "value": "Controller"}, {
+                "name": "Manual",
+                "value": "Manual"
+            }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                "name": "No",
+                "value": "Auto Louver Movement"
+            }, {"name": "Yes", "value": "Yes"}, {"name": "Water Level Indicator", "value": "Yes"}, {
+                "name": "Yes",
+                "value": "Cooling Media"
+            }, {"name": "Honeycomb", "value": "Aspen"}, {
                 "name": "Easy Mobility",
-                "values": ["Yes /Trolly Optional", "Yes /Trolly Optional"]
-            }, {"name": "Weight in KG", "values": ["15.5/21.00", "15.5/21.00"]}],
+                "value": "Yes /Trolly Optional"
+            }, {"name": "Yes /Trolly Optional", "value": "Weight in KG"}, {
+                "name": "15.5/21.00",
+                "value": "15.5/21.00"
+            }],
             "highlights": [{
                 "title": "Special Power of Cool Air",
                 "subTitle": "Honeycomb cooling pads are known to be 40% more efficient in terms of cooling, low maintenance and are known to have a longer life."

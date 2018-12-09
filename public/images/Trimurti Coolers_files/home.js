@@ -25,9 +25,7 @@ templates['home.hbs'] = template({"1":function(container,depth0,helpers,partials
 
   return "                    <div class=\"item\">\n                        <div class=\"block-4 text-center\">\n                            <figure class=\"block-4-image\">\n                                <img src=\""
     + alias2(alias1((depth0 != null ? depth0.image : depth0), depth0))
-    + "\" alt=\"Image placeholder\" class=\"img-fluid\">\n                            </figure>\n                            <div class=\"block-4-text p-4\">\n                                <h3><a href=\"details.html?id="
-    + alias2(alias1((depth0 != null ? depth0.id : depth0), depth0))
-    + "\">"
+    + "\" alt=\"Image placeholder\" class=\"img-fluid\">\n                            </figure>\n                            <div class=\"block-4-text p-4\">\n                                <h3><a href=\"#\">"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "</a></h3>\n                            </div>\n                        </div>\n                    </div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
