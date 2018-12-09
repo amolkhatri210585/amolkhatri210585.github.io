@@ -1,0 +1,94 @@
+{{> header.hbs}}
+
+<div class="site-blocks-cover" style="background-image: url({{this.hero}});" data-aos="fade">
+    <div class="container" style="padding-top:20px;">
+        <div class="align-items-start align-items-md-center justify-content-end">
+            <div class="text-center text-md-left pt-5 pt-md-0">
+                <h2 class="">Find Your Perfect Cooler</h2>
+                <div class="intro-text text-center text-md-left">
+                    <p>
+                        <a href="#" class="btn btn-sm btn-primary">Shop Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section site-section-sm site-blocks-1">
+    <div class="container">
+        <div class="row">
+            {{#each taglines}}
+                <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
+                    <div class="icon mr-4 align-self-start">
+                        <span class="{{this.icon}}"></span>
+                    </div>
+                    <div class="text">
+                        <h2 class="text-uppercase">{{this.title}}</h2>
+                        <p>{{this.copy}}</p>
+                    </div>
+                </div>
+
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+{{#each sections}}
+<div class="site-section border-bottom" data-aos="fade">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <div class="block-16">
+                    <figure>
+                        <img src="{{this.image}}" alt="Image placeholder" class="img-fluid rounded">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+
+
+                <div class="site-section-heading pt-3 mb-4">
+                    <h2 class="text-black">{{this.title}}</h2>
+                </div>
+
+                <p>{{this.copy}}</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/each}}
+
+
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 site-section-heading text-center pt-4">
+                <h2>Featured Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nonloop-block-3 owl-carousel">
+                    {{#each categories}}
+                    <div class="item">
+                        <div class="block-4 text-center">
+                            <figure class="block-4-image">
+                                <img src="{{this.image}}" alt="Image placeholder" class="img-fluid">
+                            </figure>
+                            <div class="block-4-text p-4">
+                                <h3><a href="#">{{this.name}}</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> footer.hbs }}

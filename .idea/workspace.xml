@@ -2,8 +2,200 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776feea-3a5e-4a03-9b3f-a315da838d08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/templates/catalogue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/templates/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/templates/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/templates/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/templates/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-1E-3-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-20-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-4000-front-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-4000-side-250x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-5000-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BB-AN-1T-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BrizeAir-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BrizeAir-s-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Dezire-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Dezire-s-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/O3-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/O3-s-250x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/O4--768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/O4-a-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Sleeq-100-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Sleeq-100-s-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Wind-pacipic-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Wind-pacipic-s-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Winter-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Winter-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amazone-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amazone-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amazone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aura.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cyclone-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cyclone-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cyclone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ekdant-desert-air-cooler-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ekdant-fusion-air-cooler-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ekdant-jumbo-air-cooler-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo 60-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo 60-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo 60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo 90-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo 90-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/halo-903.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hero_breeze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/honeycomb-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thunder-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thunder-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thunder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/x-cent-f-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/x-cent-s-768x768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/catalogueLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/extractor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/pageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/product-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_site-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_site-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalogue.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/details.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/nodecommand.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.jade" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,10 +222,10 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="3" />
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="hbs" value="3" />
-          <entry key="html" value="36" />
+          <entry key="html" value="37" />
           <entry key="jade" value="1" />
           <entry key="jpg" value="11" />
           <entry key="js" value="21" />
@@ -44,8 +236,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="36" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="37" />
           <entry key="Handlebars/Mustache" value="3" />
           <entry key="Image" value="12" />
           <entry key="JSON" value="1" />
@@ -116,11 +308,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/checkout.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/templates/catalogue.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -138,13 +325,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="2303">
+              <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/aos.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -274,27 +466,6 @@
               <item name="node-express" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-express" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="node-express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-express" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-express" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -309,15 +480,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/theme2/js" />
       <recent name="$PROJECT_DIR$/public/theme2/images" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/theme1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,16 +519,15 @@
       <workItem from="1543927544736" duration="623000" />
       <workItem from="1544329526097" duration="17480000" />
       <workItem from="1544357794926" duration="1631000" />
-      <workItem from="1544359664420" duration="2091000" />
+      <workItem from="1544359664420" duration="2302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28844000" />
+    <option name="totallyTimeSpent" value="29055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33403805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -406,7 +576,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/img/bg.jpg" />
     <entry file="file://$PROJECT_DIR$/public/css/business-casual.css" />
     <entry file="file://$PROJECT_DIR$/public/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/public/package.json" />
@@ -461,13 +630,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cart.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/coolerpics/halo 90-1.jpg" />
     <entry file="file://$PROJECT_DIR$/public/images/coolerpics/halo 90-2.jpg" />
@@ -610,6 +772,16 @@
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2303">
+          <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aos.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
