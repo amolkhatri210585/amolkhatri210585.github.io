@@ -1,84 +1,91 @@
 
-
-
-
-var  model = {
+var model = {
 
     "site": "Trimurti Coolers",
 
     "domain": "http://trimurticoolers.com",
 
-    "hero":"images/hero_breeze.jpg",
+    "hero": "images/hero_breeze.jpg",
 
-    "logo":"images/logo.jpeg",
+    "logo": "images/logo.jpeg",
 
-    "categories":[
+    "categories": [
         {
-            "name":"Amazon",
-            "image":"images/amazone.jpg"
+            "name": "Amazon",
+            "image": "images/amazone.jpg",
+            "id": 1
         },
         {
-            "name":"Aura",
-            "image":"images/aura.jpg"
+            "name": "Aura",
+            "image": "images/aura.jpg",
+            "id": 2
         },
         {
             "name": "Halo",
-            "image":"images/halo%2090-1.jpg"
+            "image": "images/halo%2090-1.jpg",
+            "id": 3
         },
         {
             "name": "Thunder",
-            "image":"images/thunder.jpg"
+            "image": "images/thunder.jpg",
+            "id": 5
         },
         {
             "name": "Cyclone",
-            "image":"images/cyclone.jpg"
-        }
+            "image": "images/cyclone.jpg",
+            "id": 6
+        },
+        {
+            "name": "O3+",
+            "image": "images/O3-s-250x300.png",
+            "id": 7
+        },
 
     ],
 
-    "pages":[
+    "pages": [
         {
             "name": "HOME",
-            "link": "/index.html"
+            "link": "./index.html"
         },
         {
             "name": "CATALOGUE",
-            "link": "/catalogue.html"
+            "link": "./catalogue.html"
         },
         {
             "name": "CONTACT",
-            "link": "/contact.html"
+            "link": "./contact.html"
         }
     ],
 
-    "taglines":[
+    "taglines": [
         {
-            "icon":"icon-high_quality",
+            "icon": "icon-high_quality",
             "title": "High Quality",
             "copy": "Quality is what matters to us and that's why we provide best quality products"
         },
         {
             "icon": "icon-rupee",
             "title": "Fair Pricing",
-            "copy": "Some text regarding fair pricing"
+            "copy": "We provide fair pricing for best quality products."
         },
         {
             "icon": "icon-help",
             "title": "Customer Support",
-            "copy": "Some text regarding Customer support"
+            "copy": "Get immediate customer support"
         }
 
     ],
 
-    "sections":[
+    "sections": [
         {
-            "image":"images/halo%2090-1.jpg",
+            "image": "images/halo%2090-1.jpg",
             "title": "We Care",
             "copy": "We are focused on delivering sustainable and energy efficient solutions. In order to sustain our growth. We are constantly working towards improving our sustainability by implementing green free measures for safety performance, product responsibility initiatives, approach and initiatives for CSR & innovation in raw materials use."
         }
     ],
 
-    "navigations":[
+    "navigations": [
         {
             "name": "Home",
             "link": "/index.html"
@@ -92,14 +99,15 @@ var  model = {
             "link": "/contact.html"
         }
     ],
-    "contacts":[
-         {
-            "address":"Plot no.5, Sonal Industrial Estate, GHB Road,NEAR COMET MOTOR, UDHANA SURAT PIN - 394210",
-            "phone":"9033148501",
-            "email": "sanjaybichave1@gmail.com"
-         }
+    "contacts": [
+        {
+            "city": "Surat",
+            "address": "Plot no.5, Sonal Industrial Estate, GHB Road,Near Comet Motors,Udhna,Surat. PIN - 394210",
+            "phone": "9033148505",
+            "email": "trimurticoolers@gmail.com"
+        }
     ],
-    "products" : [
+    "products": [
         {
             "id": 1,
             "name": "Amazone",
@@ -166,7 +174,46 @@ var  model = {
                 "images/aura-3.jpg",
                 "images/aura-4.jpg",
                 "images/aura-5.jpg"
-            ]
+            ],
+            "specHeader": ["Parameters", "AURA-A", "AURA-C"],
+            "specifications": [{
+                "name": "Cooling Area Sq.ft",
+                "values": ["150", "150"]
+            }, {"name": "Vent Size", "values": ["", ""]}, {
+                "name": "Fan Type",
+                "values": ["Blower", "Blower"]
+            }, {
+                "name": "Output Watts(H/M/L)",
+                "values": ["245/215/190", "245/215/190"]
+            }, {"name": "Power Resource(V/Hz)", "values": ["230/50", "230/50"]}, {
+                "name": "Fan Speed",
+                "values": ["1-ph,3 speed", "1-ph,3 speed"]
+            }, {"name": "Inverter Compatibility", "values": ["Yes", "Yes"]}, {
+                "name": "Temperature Drop (Degree)",
+                "values": ["6 to 8", "8 to 10"]
+            }, {"name": "Tank Capacity (Ltrs)", "values": ["50", "50"]}, {
+                "name": "Float Valve",
+                "values": ["Yes", "Yes"]
+            }, {"name": "Controller", "values": ["Manual", "Manual"]}, {
+                "name": "Empty Tank Alarm",
+                "values": ["No", "No"]
+            }, {"name": "Auto Louver Movement", "values": ["Yes", "Yes"]}, {
+                "name": "Water Level Indicator",
+                "values": ["Yes", "Yes"]
+            }, {"name": "Cooling Media", "values": ["Aspen", "Honeycomb"]}, {
+                "name": "Easy Mobility",
+                "values": ["Yes /Trolly Optional", "Yes /Trolly Optional"]
+            }, {"name": "Weight in KG", "values": ["12.4/16.00", "12.4/16.00"]}],
+            "highlights": [{
+                "title": "Low Power Consumption",
+                "subTitle": "Aura Consumes Electricity very Efficiently. Making It Extremely Power Efficient For Your Home."
+            }, {
+                "title": "Trolley Accessibility",
+                "subTitle": "Aura is available with a convenient built-in trolley and is our most versatile cooler."
+            }, {
+                "title": "Warranty",
+                "subTitle": "All Of Our Products Is Available With A 1 Year Manufacturer's Warranty."
+            }]
         },
         {
             "id": 3,
@@ -275,7 +322,7 @@ var  model = {
                 "name": "Trolley",
                 "value": "Weight Nett / Gross (kg)"
             }, {"name": "16.3/20.8", "value": ""}],
-            "hightlights": [{
+            "highlights": [{
                 "title": "Silent Cooling",
                 "subTitle": "Halo 60 has a silent cooling feature which cools the entire room while remaining practically silent"
             }, {
@@ -342,43 +389,32 @@ var  model = {
                 "images/cyclone-1.jpg",
                 "images/cyclone-2.jpg"
             ],
-            "specifications": [{"name": "CYCLONE-A", "value": "Cooling Area Sq.ft"}, {
-                "name": "200",
-                "value": "200"
-            }, {"name": "Vent Size", "value": "400 x 400"}, {
-                "name": "400 x 400",
-                "value": "Fan Type"
-            }, {"name": "Axial", "value": "Axial"}, {
+            "specHeader": ["Parameters", "Cyclone-C", "Cyclone-A"],
+            "specifications": [{"name": "Cooling Area Sq.ft", "values": ["200", "200"]}, {
+                "name": "Vent Size",
+                "values": ["400 x 400", "400 x 400"]
+            }, {"name": "Fan Type", "values": ["Axial", "Axial"]}, {
                 "name": "Output Watts(H/M/L)",
-                "value": "205/185/175"
-            }, {"name": "205/185/175", "value": "Power Resource(V/Hz)"}, {
-                "name": "230/50",
-                "value": "230/50"
-            }, {"name": "Fan Speed", "value": "1-ph,3 speed"}, {
-                "name": "1-ph,3 speed",
-                "value": "Inverter Compatibility"
-            }, {"name": "Yes", "value": "Yes"}, {
+                "values": ["205/185/175", "205/185/175"]
+            }, {"name": "Power Resource(V/Hz)", "values": ["230/50", "230/50"]}, {
+                "name": "Fan Speed",
+                "values": ["1-ph,3 speed", "1-ph,3 speed"]
+            }, {"name": "Inverter Compatibility", "values": ["Yes", "Yes"]}, {
                 "name": "Temperature Drop (Degree)",
-                "value": "8 to 10"
-            }, {"name": "6 to 8", "value": "Tank Capacity (Ltrs)"}, {
-                "name": "50",
-                "value": "50"
-            }, {"name": "Float Valve", "value": "Yes"}, {"name": "Yes", "value": "Controller"}, {
-                "name": "Manual",
-                "value": "Manual"
-            }, {"name": "Empty Tank Alarm", "value": "No"}, {
-                "name": "No",
-                "value": "Auto Louver Movement"
-            }, {"name": "Yes", "value": "Yes"}, {"name": "Water Level Indicator", "value": "Yes"}, {
-                "name": "Yes",
-                "value": "Cooling Media"
-            }, {"name": "Honeycomb", "value": "Aspen"}, {
+                "values": ["8 to 10", "6 to 8"]
+            }, {"name": "Tank Capacity (Ltrs)", "values": ["50", "50"]}, {
+                "name": "Float Valve",
+                "values": ["Yes", "Yes"]
+            }, {"name": "Controller", "values": ["Manual", "Manual"]}, {
+                "name": "Empty Tank Alarm",
+                "values": ["No", "No"]
+            }, {"name": "Auto Louver Movement", "values": ["Yes", "Yes"]}, {
+                "name": "Water Level Indicator",
+                "values": ["Yes", "Yes"]
+            }, {"name": "Cooling Media", "values": ["Honeycomb", "Aspen"]}, {
                 "name": "Easy Mobility",
-                "value": "Yes /Trolly Optional"
-            }, {"name": "Yes /Trolly Optional", "value": "Weight in KG"}, {
-                "name": "15.5/21.00",
-                "value": "15.5/21.00"
-            }],
+                "values": ["Yes /Trolly Optional", "Yes /Trolly Optional"]
+            }, {"name": "Weight in KG", "values": ["15.5/21.00", "15.5/21.00"]}],
             "highlights": [{
                 "title": "Special Power of Cool Air",
                 "subTitle": "Honeycomb cooling pads are known to be 40% more efficient in terms of cooling, low maintenance and are known to have a longer life."
@@ -386,6 +422,282 @@ var  model = {
                 "title": "Honeycomb Pads",
                 "subTitle": "All Of Our Products Is Available With A 1 Year Manufacturers Warranty."
             }, {"title": "Warranty", "subTitle": "&nbsp;"}]
+        },
+        {
+            "id": 7,
+            "name": "O3+",
+            "images": [
+                "images/O3-f-768x768.png",
+                "images/O3-s-250x300.png",
+            ],
+
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "525 x 470 x 1030"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "60"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "200"}, {
+                "name": "Air Flow (cm/h)",
+                "value": "3000"
+            }, {"name": "Fan Type", "value": "Fan"}, {
+                "name": "Fan/Blower Size",
+                "value": "15″"
+            }, {"name": "Output (Watts) (H/M/L)", "value": "205/185/175"}, {
+                "name": "Power Resource (V/Hz)",
+                "value": "230/50"
+            }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                "name": "Temperature Drop (Degree)",
+                "value": "8-10"
+            }, {"name": "Inline Water Supply (Float Valve)", "value": "Controller"}, {
+                "name": "Remote/ Manual",
+                "value": "Auto Louver Movement"
+            }, {"name": "Yes", "value": "Non Clog Water Dispenser"}, {
+                "name": "Yes",
+                "value": "Empty Tank Alarm"
+            }, {"name": "No", "value": "Water Level Indicator"}, {"name": "Yes", "value": "Ice Chamber"}, {
+                "name": "Yes",
+                "value": "Timer"
+            }, {"name": "9 Hours", "value": "Sleep Mode"}, {"name": "Yes", "value": "Ionizer"}, {
+                "name": "Yes",
+                "value": "Cooling Media"
+            }, {"name": "Aspen", "value": "Pad Size"}, {
+                "name": "650*368*80(1 Nos)",
+                "value": "Air Throw (ft)"
+            }, {"name": "30", "value": "Easy Mobility"}, {
+                "name": "Trolley",
+                "value": "Weight Nett / Gross (kg)"
+            }, {"name": "16.3/20.8", "value": ""}],
+            "highlights": [{
+                "title": "Silent Cooling",
+                "subTitle": "O3+ has a silent cooling feature which cools the entire room while remaining practically silent"
+            }, {
+                "title": "Large Cooling Pads",
+
+            }, {
+                "title": "Warranty",
+                "subTitle": "All of our products are available with an 1 year manufacturers warranty."
+            }]
+        },
+        {
+            "id": 8,
+            "name": "O4+",
+            "images": [
+                "images/O4--768x768.png",
+                "images/O4-a-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "525 x 470 x 1340"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "60"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "300"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "205/185/175"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "Yes"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Wheels"}, {
+                    "name": "Cooler Weight Net/ Gross (kg)",
+                    "value": "21/25"
+                }]
+        },
+        {
+            "id": 9,
+            "name": "Breeze Air",
+            "images": [
+                "images/BrizeAir-f-768x768.png",
+                "images/BrizeAir-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "715 x 540 x 1110"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "80"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "300"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "205/185/175"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "Yes"
+                }, {"name": "Cooling Media", "value": "Aspen/Celdek (Honeycomb)"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Wheels"}, {
+                    "name": "Cooler Weight Net/ Gross (kg)",
+                    "value": "21/25"
+                }]
+        },
+        {
+            "id": 10,
+            "name": "BB 4000",
+            "images": [
+                "images/BB-4000-front-768x768.png",
+                "images/BB-4000-side-250x300.png"
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "790 x 530 x 1170"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "150"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "17″"
+                }, {"name": "Output (Watts)", "value": "230/215/200"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                },  {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "Yes"}, {"name": "Air Flow", "value": "6000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 11,
+            "name": "BB 5000",
+            "images": [
+                "images/BB-5000-f-768x768.png"
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "790 x 530 x 1400"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "150"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "18″ Climatiser "
+                }, {"name": "Output (Watts)", "value": "230/215/200"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "No"
+                }, {
+                    "name": "Air Flow", "value": "8000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 12,
+            "name": "X'cent",
+            "images": [
+                "images/x-cent-f-768x768.png",
+                "images/x-cent-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "715 x 670 x 1195"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "115"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "18″"
+                }, {"name": "Output (Watts)", "value": "290/280/265"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                },  {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "Yes"}, {"name": "Air Flow", "value": "6000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen/Celdek (Honeycomb)"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Wheels"}]
+        },
+        {
+            "id": 13,
+            "name": "BB 20",
+            "images": [
+                "images/BB-20-768x768.png"
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "870 x 480 x 1380"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "55"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "700"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "21″"
+                }, {"name": "Output (Watts)", "value": "370 W"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {"name": "Rated Current (amps)", "value": "1"}, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual/Remote"
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                    "name": "Water Level Indicator",
+                    "value": "Yes"
+                }, {
+                    "name": "Air Flow", "value": "6000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen/Celdek (Honeycomb)"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Wheels"}]
         }
     ]
 };
