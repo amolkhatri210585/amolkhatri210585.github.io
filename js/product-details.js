@@ -37,7 +37,7 @@ var model = {
         },
         {
             "name": "O3+",
-            "image": "images/O3-s-250x300.jpg",
+            "image": "images/O3-s-250x300.png",
             "id": 7
         },
 
@@ -427,8 +427,8 @@ var model = {
             "id": 7,
             "name": "O3+",
             "images": [
-                "images/O3-f-768x768.jpg",
-                "images/O3-s-250x300.jpg",
+                "images/O3-f-768x768.png",
+                "images/O3-s-250x300.png",
             ],
 
 
@@ -481,8 +481,8 @@ var model = {
             "id": 8,
             "name": "O4+",
             "images": [
-                "images/O4--768x768.jpg",
-                "images/O4-a-768x768.jpg",
+                "images/O4--768x768.png",
+                "images/O4-a-768x768.png",
 
             ],
 
@@ -520,8 +520,8 @@ var model = {
             "id": 9,
             "name": "Breeze Air",
             "images": [
-                "images/BrizeAir-f-768x768.jpg",
-                "images/BrizeAir-s-768x768.jpg",
+                "images/BrizeAir-f-768x768.png",
+                "images/BrizeAir-s-768x768.png",
 
             ],
 
@@ -559,10 +559,8 @@ var model = {
             "id": 10,
             "name": "BB 4000",
             "images": [
-                "images/BB-4000-front-768x768.jpg",
-                "images/BB-4000-side-250x300.jpg",
-
-                
+                "images/BB-4000-front-768x768.png",
+                "images/BB-4000-side-250x300.png"
 
             ],
 
@@ -592,14 +590,12 @@ var model = {
                     "name": "Drain Valve",
                     "value": "No"
                 }, {"name": "Easy Mobility", "value": "-"}]
-        },        
+        },
         {
             "id": 11,
             "name": "BB 5000",
             "images": [
-                "images/BB-5000-f-768x768.jpg",
-                
-
+                "images/BB-5000-f-768x768.png"
             ],
 
             "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "790 x 530 x 1400"}, {
@@ -621,19 +617,22 @@ var model = {
                 }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
                     "name": "Controller",
                     "value": "Manual"
-                },  {"name": "Empty Tank Alarm", "value": "No"}, {
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
                     "name": "Water Level Indicator",
-                    "value": "No"}, {"name": "Air Flow", "value": "8000 cm/h"
+                    "value": "No"
+                }, {
+                    "name": "Air Flow", "value": "8000 cm/h"
                 }, {"name": "Cooling Media", "value": "Aspen"}, {
                     "name": "Drain Valve",
                     "value": "No"
                 }, {"name": "Easy Mobility", "value": "-"}]
+        },
         {
             "id": 12,
             "name": "X'cent",
             "images": [
-                "images/x-cent-f-768x768.jpg",
-                "images/x-cent-s-768x768.jpg",
+                "images/x-cent-f-768x768.png",
+                "images/x-cent-s-768x768.png",
 
             ],
 
@@ -668,9 +667,7 @@ var model = {
             "id": 13,
             "name": "BB 20",
             "images": [
-                "images/BB-20-768x768.jpg",
-                
-
+                "images/BB-20-768x768.png"
             ],
 
             "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "870 x 480 x 1380"}, {
@@ -692,18 +689,15 @@ var model = {
                 }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
                     "name": "Controller",
                     "value": "Manual/Remote"
-                },  {"name": "Empty Tank Alarm", "value": "No"}, {
+                }, {"name": "Empty Tank Alarm", "value": "No"}, {
                     "name": "Water Level Indicator",
-                    "value": "Yes"}, {"name": "Air Flow", "value": "6000 cm/h"
+                    "value": "Yes"
+                }, {
+                    "name": "Air Flow", "value": "6000 cm/h"
                 }, {"name": "Cooling Media", "value": "Aspen/Celdek (Honeycomb)"}, {
                     "name": "Drain Valve",
                     "value": "Yes"
                 }, {"name": "Easy Mobility", "value": "Wheels"}]
-
-
-
-
-            ]
         }
     ]
 };
