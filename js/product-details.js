@@ -447,25 +447,25 @@ var model = {
             }, {"name": "Inverter Compatibility", "value": "yes"}, {
                 "name": "Temperature Drop (Degree)",
                 "value": "8-10"
-            }, {"name": "Inline Water Supply (Float Valve)", "value": "Controller"}, {
-                "name": "Remote/ Manual",
-                "value": "Auto Louver Movement"
-            }, {"name": "Yes", "value": "Non Clog Water Dispenser"}, {
-                "name": "Yes",
-                "value": "Empty Tank Alarm"
-            }, {"name": "No", "value": "Water Level Indicator"}, {"name": "Yes", "value": "Ice Chamber"}, {
-                "name": "Yes",
-                "value": "Timer"
-            }, {"name": "9 Hours", "value": "Sleep Mode"}, {"name": "Yes", "value": "Ionizer"}, {
-                "name": "Yes",
-                "value": "Cooling Media"
-            }, {"name": "Aspen", "value": "Pad Size"}, {
-                "name": "650*368*80(1 Nos)",
-                "value": "Air Throw (ft)"
-            }, {"name": "30", "value": "Easy Mobility"}, {
-                "name": "Trolley",
-                "value": "Weight Nett / Gross (kg)"
-            }, {"name": "16.3/20.8", "value": ""}],
+            }, {"name": "Inline Water Supply (Float Valve)", "value": "Y"}, {
+                "name": "Controller",
+                "value": "Manual"
+            }, {"name": "Auto Louver Movement", "value": "No"}, {
+                "name": "Non Clog Water Dispenser",
+                "value": "Yes"
+            }, {"name": "Empty Tank Alarm", "value": "No"}, {"name": "Water Level Indicator", "value": "Yes"}, {
+                "name": "Ice Chamber",
+                "value": "Yes"
+            }, {"name": "Ice Chamber", "value": "Yes"}, {"name": "Sleep Mode", "value": "No"}, {
+                "name": "Ionizer",
+                "value": "No"
+            }, {"name": "Cooling Media", "value": "Aspen"}, {
+                "name": "Pad Size",
+                "value": "650*368*80(1 Nos)"
+            }, {"name": "Air Throw (ft)", "value": "30"}, {
+                "name": "Easy Mobility",
+                "value": "Trolly"
+            }, {"name": "Weight Nett / Gross (kg)", "value": "16.3/20.8"}],
             "highlights": [{
                 "title": "Silent Cooling",
                 "subTitle": "O3+ has a silent cooling feature which cools the entire room while remaining practically silent"
@@ -560,7 +560,9 @@ var model = {
             "name": "BB 4000",
             "images": [
                 "images/BB-4000-front-768x768.png",
-                "images/BB-4000-side-250x300.png"
+                "images/BB-4000-side-250x300.png",
+
+                
 
             ],
 
@@ -590,43 +592,38 @@ var model = {
                     "name": "Drain Valve",
                     "value": "No"
                 }, {"name": "Easy Mobility", "value": "-"}]
-        },
+        },        
         {
             "id": 11,
             "name": "BB 5000",
             "images": [
-                "images/BB-5000-f-768x768.png"
+                "images/BB-5000-f-768x768.png",
+                
+
             ],
 
-            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "790 x 530 x 1400"}, {
-                "name": "Tank Capacity (ltrs)",
-                "value": "150"
-            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
-                {"name": "Fan Type", "value": "Axial"}, {
-                    "name": "Fan/Blower Size",
-                    "value": "18″ Climatiser "
-                }, {"name": "Output (Watts)", "value": "230/215/200"}, {
-                    "name": "Power Resource (V/Hz)",
-                    "value": "230/50"
-                }, {"name": "Rated Current (amps)", "value": "1"}, {
-                    "name": "Fan Speed Variation",
-                    "value": "3 speed"
-                }, {
+            "specifications": [
+                {"name": "Dimensions (LxBxH)(mm)", "value": "790 x 530 x 1400"},
+                { "name": "Tank Capacity (ltrs)", "value": "150" },
+                {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"},
+                { "name": "Fan/Blower Size", "value": "18″ Climatiser " },
+                {"name": "Output (Watts)", "value": "230/215/200"},
+                { "name": "Power Resource (V/Hz)", "value": "230/50" },
+                {"name": "Rated Current (amps)", "value": "1"},
+                { "name": "Fan Speed Variation", "value": "3 speed" }, {
                     "name": "Temperature Drop (Degree)",
                     "value": "8-10"
                 }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
                     "name": "Controller",
                     "value": "Manual"
-                }, {"name": "Empty Tank Alarm", "value": "No"}, {
+                },  {"name": "Empty Tank Alarm", "value": "No"}, {
                     "name": "Water Level Indicator",
-                    "value": "No"
-                }, {
-                    "name": "Air Flow", "value": "8000 cm/h"
+                    "value": "No"}, {"name": "Air Flow", "value": "8000 cm/h"
                 }, {"name": "Cooling Media", "value": "Aspen"}, {
                     "name": "Drain Valve",
                     "value": "No"
-                }, {"name": "Easy Mobility", "value": "-"}]
-        },
+                }, {"name": "Easy Mobility", "value": "-"}]},
         {
             "id": 12,
             "name": "X'cent",
@@ -665,9 +662,471 @@ var model = {
         },
         {
             "id": 13,
+            "name": "Sleek-100",
+            "images": [
+                "images/Sleeq-100-768x768.png",
+                "images/Sleeq-100-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "425*425*700"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "40"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "100"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan/Blower Size",
+                    "value": "10″"
+                }, {"name": "Output (Watts)", "value": "95"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "7 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "No"}, {"name": "Air Flow", "value": "2000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 14,
+            "name": "Dezire",
+            "images": [
+                "images/Dezire-f-768x768.png",
+                "images/Dezire-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "470*530*1575"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "50"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "250"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "205/185/175"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "3600 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 15,
+            "name": "Winter+",
+            "images": [
+                "images/Winter-f.png",
+                "images/Winter-s.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "595*695*1460"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "95"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "17″"
+                }, {"name": "Output (Watts)", "value": "230/215/200"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "6000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 16,
+            "name": "Wind Pacific",
+            "images": [
+                "images/Wind-pacipic-f-768x768.png",
+                "images/Wind-pacipic-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "820*730*1475"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "140"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "700"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "22″"
+                }, {"name": "Output (Watts)", "value": "320"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "1 speed"
+                }, {"name": "Inverter Compatibility", "value": "No"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "Yes"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "9000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 17,
+            "name": "HF-Nature",
+            "images": [
+                "images/Dezire-f-768x768.png",
+                "images/Dezire-s-768x768.png",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "490*460*1280"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "47"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "200"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "170"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "No"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 18,
+            "name": "Niki-9",
+            "images": [
+                "images/niki-9.jpg",
+                "images/niki-9 (2).jpg",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "430*390*620"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "30"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "100"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "9″"
+                }, {"name": "Output (Watts)", "value": "70"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "7 speed"
+                }, {"name": "Inverter Compatibility", "value": "No"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 19,
+            "name": "Hi-cool",
+            "images": [
+                "images/Hi cool.jpg",
+                "images/hi cool (2).jpg",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "480*390*620"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "41"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "150"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "12″"
+                }, {"name": "Output (Watts)", "value": "90"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "7 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "Yes"
+                }, {"name": "Easy Mobility", "value": "Wheels"}]
+        },
+        {
+            "id": 20,
+            "name": "Mini Slim",
+            "images": [
+                "images/mini slim.jpg",
+                "images/mini slim (2).jpg",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "630*480*950"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "50"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "200"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "-"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "Wheels"}]
+        },
+        {
+            "id": 21,
+            "name": "Slim Trim",
+            "images": [
+                "images/Slim-trim.jpg",
+                "images/Slim trim.jpg",
+
+            ],
+
+            "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "710*485*1160"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "76"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "400"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "17″"
+                }, {"name": "Output (Watts)", "value": "-"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "3 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {"name": "Inline Water Supply (Float Valve)", "value": "No"}, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {
+                    "name": "Water Level Indicator",
+                    "value": "-"}, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "Stand"}]
+        },
+        {
+            "id": 22,
+            "name": "3 Feet Fusion Body",
+            "images": [
+                "images/ekdant-desert-air-cooler-500x500.jpg",
+                
+
+            ],
+
+            "specifications": [{"name": "Dimensions (HxWxD)(inch)", "value": "36*29*26"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "80"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "200"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "110"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "2 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Air Flow", "value": "3000 cm/h"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 23,
+            "name": "2.25 Feet Fusion Body",
+            "images": [
+                "images/2.25feet fusion.jpg",
+                
+
+            ],
+
+            "specifications": [{"name": "Dimensions (HxWxD)(inch)", "value": "28*27*21"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "50"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "150"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "9″"
+                }, {"name": "Output (Watts)", "value": "55"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "1 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 24,
+            "name": "3.5 Feet Fusion Body",
+            "images": [
+                "images/ekdant-desert-air-cooler-500x500.jpg",
+                
+
+            ],
+
+            "specifications": [{"name": "Dimensions (HxWxD)(inch)", "value": "42*29*26"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "80"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "250"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "15″"
+                }, {"name": "Output (Watts)", "value": "110"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "2 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 25,
+            "name": "4 Feet Fusion Body",
+            "images": [
+                "images/ekdant-jumbo-air-cooler-500x500.jpg",
+                
+
+            ],
+
+            "specifications": [{"name": "Dimensions (HxWxD)(inch)", "value": "48*35*29"}, {
+                "name": "Tank Capacity (ltrs)",
+                "value": "110"
+            }, {"name": "Cooling Area (sq. Ft.)", "value": "450"},
+                {"name": "Fan Type", "value": "Axial"}, {
+                    "name": "Fan Size",
+                    "value": "17″"
+                }, {"name": "Output (Watts)", "value": "190"}, {
+                    "name": "Power Resource (V/Hz)",
+                    "value": "230/50"
+                }, {
+                    "name": "Fan Speed Variation",
+                    "value": "2 speed"
+                }, {"name": "Inverter Compatibility", "value": "Yes"}, {
+                    "name": "Temperature Drop (Degree)",
+                    "value": "8-10"
+                }, {
+                    "name": "Controller",
+                    "value": "Manual"
+                }, {"name": "Air Flow", "value": "-"
+                }, {"name": "Cooling Media", "value": "Aspen"}, {
+                    "name": "Drain Valve",
+                    "value": "No"
+                }, {"name": "Easy Mobility", "value": "-"}]
+        },
+        {
+            "id": 26,
             "name": "BB 20",
             "images": [
-                "images/BB-20-768x768.png"
+                "images/BB-20-768x768.png",
+
+
             ],
 
             "specifications": [{"name": "Dimensions (LxBxH)(mm)", "value": "870 x 480 x 1380"}, {
@@ -698,7 +1157,12 @@ var model = {
                     "name": "Drain Valve",
                     "value": "Yes"
                 }, {"name": "Easy Mobility", "value": "Wheels"}]
+
         }
-    ]
+
+
+            ]
+
+
 };
 
